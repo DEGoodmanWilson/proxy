@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    down (5.0.1)
+      addressable (~> 2.5)
+    pdf-core (0.7.0)
+    prawn (2.2.2)
+      pdf-core (~> 0.7.0)
+      ttfunk (~> 1.5)
+    public_suffix (4.0.3)
+    ttfunk (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  down (~> 5.0.1)
+  prawn (~> 2.2.2)
+
+BUNDLED WITH
+   1.17.2
